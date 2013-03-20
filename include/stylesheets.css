@@ -1,0 +1,416 @@
+@charset "UTF-8";
+
+/* Body starts, dont edit! */
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	min-width: 600px;
+	background-image: url();
+	background-color: .000000;
+	background-repeat: repeat-x;
+}
+
+.clearfix:before,
+.clearfix:after { content: "";  display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1;}
+
+.box {
+	position: relative;
+	top: 0px;
+	right: 0;
+	margin: 0 auto;
+	width: 900px;
+	text-align: left;
+	height: 1000px;
+	left: 0px;
+}
+.footer_bg {
+	background-image: url(../images/background.jpg); /* Background image */
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.footerBG {
+	position:absolute;
+	width:100%;
+	height:1200px;
+	z-index:0;
+	top: 0px;
+	left: 0px;
+	visibility: visible;
+}
+.background {
+	position:absolute;
+	width:100%;
+	height:1200px;
+	z-index:0;
+	left: 0px;
+	top: 0px;	
+/* Body ends */
+/* Text Styling starts, read Read_me.pdf to see editable contents */
+
+}
+a:link {
+	color: .990007;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+a:visited {
+	text-decoration: underline;
+	color: .990007;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+a:hover {
+	text-decoration: underline;
+	color: .000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+a:active {
+	text-decoration: underline;
+	color: .990007;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+/* Links  Styling starts */
+
+.class1 a:link {
+	color: .990007;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+.class1 a:visited {
+	text-decoration: underline;
+	color: .990007;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+.class1 a:hover {
+	text-decoration: underline;
+	color: .000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+.class1 a:active {
+	text-decoration: underline;
+	color: .990007;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+/* Links  Styling ends */
+/* Lightbox Styling starts */
+
+IMG {border-color: white;}
+A:hover IMG, A:active IMG {border-color: black; }
+
+/* Lightbox Styling ends */
+
+.input_fields {	color: .000000;	font-family: Arial, Helvetica, sans-serif;	font-size: 12px;	padding: 5px;	margin: 3px 0 0 0; background-color: .EEE;	border: 1px; border-color:.CCC; border-style:solid} /* Form field style */
+
+.input_fields:hover {	color: .000000;	font-family: Arial, Helvetica, sans-serif;	font-size: 12px;	padding: 5px;	margin: 3px 0 0 0; background-color: .DDD;	border: 1px; border-color:.CCC; border-style:solid} /* Form field style */
+
+.input_button {	color: .FFFFFF;	font-family: Arial, Helvetica, sans-serif;	font-size: 12px;	margin-top: 6px; padding: 5px 10px 5px 10px;	background-color: .990007;	border: 0px;} /* Button style */
+
+.input_button:hover {	color: .FFFFFF;	font-family: Arial, Helvetica, sans-serif;	font-size: 12px;	margin-top: 6px; padding: 5px 10px 5px 10px;	background-color: .242424;	border: 0px;} /* Button style */
+
+/* Text Styling ends */
+
+/* Layouts Styling Starts */
+
+.content {
+	position:absolute;
+	width:960px;
+	height:761px;
+	z-index:2;
+	left: -30px;
+	top: 0px;
+	}
+.leftside { /* Leftside marginal */
+	position:absolute;
+	width:37px;
+	height:636px;
+	z-index:1;
+	top: 140px;
+	left: -26px;
+	background-position: right top;
+}
+.logobox { /* Logo's red background */
+	position:absolute;
+	width:200px;
+	height:276px;
+	z-index:2;
+	left: 33px;
+	top: 140px;
+	background-image: url(../images/logobox.jpg); /* Do not remove this line, this is a red background box for the logo */
+}
+.contentbg {
+	position:absolute;
+	width:483px;
+	height:301px;
+	z-index:3;
+	left: 33px;
+	top: 416px;
+	background-color: red;
+}
+.footer { /* Site's footer, and including the shadow of the box */
+	position:absolute;
+	width:888px;
+	height:93px;
+	z-index:4;
+	left: 33px;
+	top: 717px;
+}
+.workbg {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:5;
+	left: 515px;
+	top: 416px;
+}
+.bannerbg {  /* Banner image's div */
+	position:absolute;
+	width:689px;
+	height:276px;
+	z-index:6;
+	left: 231px;
+	top: 140px;
+}
+.rightside {  /* Rightside marginal */
+	position:absolute;
+	width:53px;
+	height:646px;
+	z-index:7;
+	left: 920px;
+	top: 140px;
+}
+.portfoliotext { /* Div for the title of portfolio */
+	position:absolute;
+	width:450px;
+	height:66px;
+	z-index:8;
+	left: 450px;
+	top: 73px;
+}
+.portfolio { /* Photographers portfolio */
+	font-family: Arial, Helvetica, sans-serif;
+	color: .FFFFFF;
+	font-size: 34px;
+	letter-spacing: -1pt;
+	line-height: 35px;
+}
+.titles { /* Portfolio's owner's titles */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: .666666;
+}
+.bodytext { /* Here are first columns bodytexts */
+	position:absolute;
+	width:438px;
+	height:265px;
+	z-index:9;
+	left: 63px;
+	top: 440px;
+}
+.bodytext { /* Here you can edit bodytext */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: .111111;
+	line-height: 20px;
+}
+.title { /* Main titles, examples, Welcome to my Online Portfolio, About Me, My Services, Web Design etc. */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: .333333;
+	letter-spacing: -1pt;
+}
+.logo { /* Logo is included right here */
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:10;
+	left: 32px;
+	top: 302px; /* Remove this line totally, if you don't want any logo to your site */
+}
+.navigation { /* Navigation bar, to edit buttons open up homepage.psd, and look section 6. PSD files on Read_me.pdf */
+	position:absolute;
+	width:408px;
+	height:41px;
+	z-index:11;
+	left: 231px;
+	top: 378px;
+}
+.transparentshape {  /* Transparent shape next to navigation bar */
+	position:absolute;
+	width:281px;
+	height:39px;
+	z-index:12;
+	left: 639px;
+	top: 378px;
+	background-image: url(../images/navigation/shape.png);
+}
+.workphotos { /* Homepages nine work photos are under this div */
+	position:absolute;
+	width:387px;
+	height:237px;
+	z-index:13;
+	left: 528px;
+	top: 435px;
+}
+.bodytextright {
+	position:absolute;
+	width:358px;
+	height:257px;
+	z-index:13;
+	left: 540px;
+	top: 440px;
+}
+.information { /* Your contact information div */
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 180px; /* If you don't want your photo on site, edit this line to this: left: 0px; */
+}
+.photo { /* Your photo */
+	position:absolute;
+	width:150px;
+	height:200px;
+	z-index:2;
+	top: 44px;
+	left: 10px;
+}
+.hireme { /* Hire me title */
+	position:absolute;
+	width:368px;
+	height:36px;
+	z-index:14;
+	left: 540px;
+	top: 436px;
+}
+.form { /* Here is contact form */
+	position:absolute;
+	width:330px;
+	height:115px;
+	z-index:13;
+	left: 540px;
+	top: 487px;
+}
+.flickr { /* Flick column, or whatever you want to title to say */
+	position:absolute;
+	width:165px;
+	height:260px;
+	z-index:14;
+	left: 725px;
+	top: 440px;
+}
+.twitter { /* Twitter column, or whatever you want to title to say */
+	position:absolute;
+	width:161px;
+	height:262px;
+	z-index:15;
+	left: 540px;
+	top: 440px;
+	
+/* Portfolio's Photographing pages Styling Starts */
+
+}
+.portfoliotitles { /* Titles of Photography, Web Design and Print & Logos */
+	position:absolute;
+	width:184px;
+	height:24px;
+	z-index:14;
+	left: 65px;
+	top: 440px;
+}
+.portfoliopages { /* pages and some text */
+	position:absolute;
+	width:160px;
+	height:24px;
+	z-index:14;
+	left: 65px;
+	top: 480px;
+}
+.photographyshowoff { /* Main content for works */
+	position:absolute;
+	width:653px;
+	height:24px;
+	z-index:14;
+	left: 248px;
+	top: 433px;
+}
+
+/* Portfolio's Photographing pages Styling Ends */
+/* Portfolio pages Styling Starts */
+
+.portfoliocategories { /* Subcategories are in here*/
+	position:absolute;
+	width:368px;
+	height:24px;
+	z-index:14;
+	left: 532px;
+	top: 425px;
+}
+/* Portfolio pages Styling Ends */
+/* Portfolio's Web Design pages Styling Starts */
+
+.webwork1 { /* Showroom for work .1 */
+	position:absolute;
+	width:205px;
+	height:24px;
+	z-index:14;
+	left: 250px;
+	top: 439px;
+}
+.webwork2 { /* Showroom for work .2 */
+	position:absolute;
+	width:204px;
+	height:24px;
+	z-index:14;
+	left: 470px;
+	top: 439px;
+}
+.webwork3 { /* Showroom for work .3 */
+	position:absolute;
+	width:202px;
+	height:24px;
+	z-index:14;
+	left: 690px;
+	top: 439px;
+}
+
+/* Portfolio's Web Design pages Styling Ends */
+/* Portfolio's Print pages Styling Starts */
+
+
+.printwork { /* Main content for print works */
+	position:absolute;
+	width:653px;
+	height:24px;
+	z-index:14;
+	left: 253px;
+	top: 445px;
+}
+
+
+/* Portfolio's Print pages Styling Ends */
+
+.greenban { background-color: Green; }
+.footerbg { background-color: yellow; }
+.linksbg1,
+.rechtsbg1 { background-color: black; }

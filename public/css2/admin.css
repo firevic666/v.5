@@ -1,0 +1,38 @@
+body{
+    background: url(../images/background.png);
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 20px 40%; 
+    background: white;
+}
+.header a { 
+    padding: 10px;
+    background: blue;
+    color: #fff;
+    font-size: 1.4em;
+}
+.content {
+    padding: 50px 24%; 
+}
+.footer {
+    background: yellow;
+}
+
+.title{
+    font-size: 1.8em;
+}
+.getPortfolio {
+    width: 600px;
+    height: 800px;
+}
+.portfoliopart {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.context {
+   background: rosybrown;
+   padding: 15px;
+}

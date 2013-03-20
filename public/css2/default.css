@@ -1,0 +1,72 @@
+body { margin: 0; padding: 0; text-align: center; background-image: url(../images/bg.gif); min-width: 600px; }
+
+.clearfix:before,
+.clearfix:after { content: "";  display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1;}
+
+/*GENERAL A STYLING */
+.alinktekst { color: #990007; text-decoration: underline; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 20px; }
+a:hover { text-decoration: underline; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 20px; }
+.class1 a:hover { text-decoration: underline; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 20px; }
+
+/*IMG */
+IMG {  }
+A:hover IMG, A:active IMG {border-color: black; }
+
+.style1 { color: #FFF; }
+
+.box { position: relative; top: -100px; right: 0; margin: 0 auto; width: 900px; text-align: left; height: 770px; left: 0px; }
+.background { position:absolute; width:100%; height:1200px; z-index:0; left: 0px; top: 0px; }
+
+.content { position:absolute; width:956px; height:820px; z-index:2; left: -30px; top: 0px; background-image: url(../images/background_content.png); background-position: 2px 135px; background-repeat: repeat-x; }
+.leftside { position:absolute; width:37px; height:636px; z-index:1; top: 140px; left: -26px; background-position: right top; }
+.logobox { position:absolute; width:200px; height:276px; z-index:2; left: 33px; top: 140px; background-color: blue;}
+.contentbg { position:absolute; width:483px; height:301px; z-index:3; left: 33px; top: 550px; }
+.workbg { position:absolute; width:400px; height:200px;  z-index:5; left: 518px; top: 589px; }
+.bannerbg {  position:absolute; width:200px; height:144px; z-index:6; left: 199px; top: 155px; }
+.rightside { position:absolute; width:53px;  height:646px; z-index:7; left: 920px; top: 140px; }
+.portfoliotext { position:absolute; width:450px; height:66px; z-index:8; left: 450px; top: 73px; }
+.portfolio { font-family: Arial, Helvetica, sans-serif; color: FFFFFF; font-size: 34px; line-height: 35px; }
+.titles { /* Portfolio's owner's titles */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: 666666;
+}
+.bodytext {  position: relative; top: 31px; left: 7px; }
+.bodytext { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: 111111; line-height: 20px; }
+.title { font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: 333333; }
+.logo {  position:absolute; width:200px; height:115px; z-index:10; left: 32px; top: 302px; }
+.navigation { position: relative; top: 198px; left: 20px; }
+.workphotos { position:absolute; width:387px; height:237px; z-index:13; left: 528px; top: 435px; }
+.bodytextright { position:absolute; width:358px; height:257px; z-index:13; left: 540px; top: 440px; }
+.information { position:absolute; width:200px; height:115px; z-index:2; left: 180px; }
+.photo { position:absolute; width:150px; height:200px; z-index:2; top: 44px; left: 10px; }
+
+.form { position:absolute; width:330px; height:115px; z-index:13; left: 540px; top: 487px;}
+
+.portfoliotitles { position:absolute; width:184px; height:24px; z-index:14; left: 65px;  top: 440px; }
+.portfoliopages { position:absolute; width:160px; height:24px; z-index:14; left: 65px; top: 480px; }
+.photographyshowoff { position:absolute; width:653px; height:24px; z-index:14;  left: 248px; top: 433px; }
+ 
+.portfoliocategories { position:absolute; width:368px; height:24px; z-index:14; left: 532px; top: 425px; }
+.webwork1 {  position:absolute; width:205px; height:24px; z-index:14; left: 250px; top: 439px; }
+.webwork2 {  position:absolute; width:204px; height:24px; z-index:14; left: 470px; top: 439px; }
+.webwork3 { position:absolute; width:202px; height:24px; z-index:14; left: 690px; top: 439px; }
+
+.printwork {  position:absolute;  width:653px; height:24px; z-index:14; left: 253px; top: 445px; }
+.greenban { }
+
+.linksbg1 {  border:0px; }
+.rechtsbg1 { border:0px; }
+
+/* Footer */
+.footer { position:absolute; width:888px; height:93px; z-index:4; left: 33px; top: 806px; }
+.footer_bg {  }
+.footerBG { position:absolute; width:100%; height:1200px; z-index:0; top: 0px; left: 0px; visibility: visible; }
+.footerbg { }
+
+
+/* Tables */
+
+td { padding: 10px; width: 40px;}
