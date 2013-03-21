@@ -8,7 +8,7 @@ class Dashboard extends Controller {
         $logged = Session::get('loggedIn');
         if ($logged == false) {
             Session::destroy();
-            header('location: ../v.4/login');
+            header('location: ../v.5/login');
             exit;
         }
 

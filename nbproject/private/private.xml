@@ -10,4 +10,10 @@
             </bookmark>
         </file>
     </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/C:/xampp/htdocs/MVC/v.5/views/color/edit.php</file>
+        <file>file:/C:/xampp/htdocs/MVC/v.5/controllers/color.php</file>
+        <file>file:/C:/xampp/htdocs/MVC/v.5/models/color_model.php</file>
+        <file>file:/C:/xampp/htdocs/MVC/v.5/views/color/index.php</file>
+    </open-files>
 </project-private>

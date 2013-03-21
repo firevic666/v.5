@@ -9,7 +9,7 @@ class User extends Controller {
                 $role = Session::get('role');
 		if ($logged == false || $role != 'owner') {
 			Session::destroy();
-			header('location: ../v.4/login');
+			header('location: ../v.5/login');
 			exit;
 		}
                 $this->view->css = array('public/css/admin.css');
